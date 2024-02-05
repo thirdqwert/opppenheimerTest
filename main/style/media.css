@@ -1,0 +1,208 @@
+@media (max-width: 1129.98px) {
+    .nav__content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .people__list {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .people__li {
+        width: calc((100% - 10px) / 2);
+    }
+
+    .people__li:nth-of-type(2) {
+        border: 1px solid black;
+    }
+
+    .people__li:nth-of-type(4) {
+        border: 1px solid black;
+    }
+
+    .people__li:nth-of-type(1):hover {
+        margin-bottom: 555px;
+    }
+
+    .people__li:nth-of-type(2):hover {
+        margin-bottom: 467px;
+    }
+
+    .people__li:nth-of-type(3):hover {
+        margin-bottom: 555px;
+    }
+
+    .people__li:nth-of-type(4):hover {
+        margin-bottom: 555px;
+    }
+
+    .people__li:nth-of-type(5):hover {
+        margin-bottom: 686px;
+    }
+
+}
+
+@media (max-width: 991.98px) {
+    .info .container {
+        align-items: flex-start;
+
+    }
+
+    .card {
+        flex-direction: column;
+    }
+
+    .card__img {
+        max-width: 100%;
+    }
+
+    .card__img_order {
+        order: -0;
+    }
+
+    .card__describe {
+        max-width: 100%;
+    }
+
+    .moreinfo .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .more__info-card img {
+        max-width: 100%;
+    }
+
+    .people__li:nth-of-type(1):hover {
+        margin-bottom: 555px;
+    }
+
+    .people__li:nth-of-type(2):hover {
+        margin-bottom: 467px;
+    }
+
+    .people__li:nth-of-type(3):hover {
+        margin-bottom: 555px;
+    }
+
+    .people__li:nth-of-type(4):hover {
+        margin-bottom: 555px;
+    }
+
+    .people__li:nth-of-type(5):hover {
+        margin-bottom: 686px;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    body,
+    html {
+        font-size: 16px;
+    }
+
+    .people__list {
+        flex-direction: column;
+    }
+
+    .people__li {
+        width: 100%;
+    }
+
+    .people__name {
+        text-align: center;
+    }
+
+    .nav__dropdown-list {
+        padding-top: 20px;
+    }
+
+    .people__li:nth-of-type(1):hover {
+        margin-bottom: 501px;
+    }
+
+    .people__li:nth-of-type(2):hover {
+        margin-bottom: 425px;
+    }
+
+    .people__li:nth-of-type(3):hover {
+        margin-bottom: 501px;
+    }
+
+    .people__li:nth-of-type(4):hover {
+        margin-bottom: 501px;
+    }
+
+    .people__li:nth-of-type(5):hover {
+        margin-bottom: 577px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .intro {
+        background: url(../img/backgroundmobile.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .nav__list {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .intro__heading {
+        font-size: 2rem;
+
+    }
+
+    .intro__text {
+        font-size: 1.3rem;
+    }
+
+    .intro__btn {
+        padding: 8px 25px;
+    }
+
+    .more__info-left {
+        padding: 20px 0;
+    }
+
+    .more__info-right {
+        max-width: 100%;
+    }
+
+    .more__info-card {
+        padding: 20px 0;
+    }
+
+    .people__dropdown {
+        padding: 10px;
+    }
+
+    .moreinfo {
+        padding: 40px 0;
+    }
+
+    .people__li:nth-of-type(1):hover {
+        margin-bottom: 462px;
+    }
+
+    .people__li:nth-of-type(2):hover {
+        margin-bottom: 405px;
+    }
+
+    .people__li:nth-of-type(3):hover {
+        margin-bottom: 443px;
+    }
+
+    .people__li:nth-of-type(4):hover {
+        margin-bottom: 481px;
+    }
+
+    .people__li:nth-of-type(5):hover {
+        margin-bottom: 519px;
+    }
+}
